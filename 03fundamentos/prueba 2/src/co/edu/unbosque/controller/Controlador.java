@@ -1,3 +1,4 @@
+//hola yo cambio esto
 package co.edu.unbosque.controller;
 
 import java.awt.event.ActionEvent;
@@ -52,7 +53,7 @@ public class Controlador implements ActionListener{
 		}
 		
 		if(Comando.equals("tuto")) {
-			JOptionPane.showMessageDialog(ventana, "1. Para empezar seleccione el botón jugar"+"\n"+"2. Seleccione el modo de juego de su preferencia"+"\n"+"3. Escoja su avatar"+"\n"+"4. Escoja un mapa"+"\n"+"5. tire del dado para avanzar"+"\n"+"6. Si cae en una casilla con escalera deberá responder correctamente una pregunta para poder subir"+"\n"+"7. Por el contrario, si cae en una serpiente deberá responder correctamente una pregunta para evitar descender"+"\n"+"8. Ganará el primero en llegar al otro extremo del tablero"+"\n"+"¡BUENA SUERTE!");
+			JOptionPane.showMessageDialog(ventana, "1. Para empezar seleccione el botï¿½n jugar"+"\n"+"2. Seleccione el modo de juego de su preferencia"+"\n"+"3. Escoja su avatar"+"\n"+"4. Escoja un mapa"+"\n"+"5. tire del dado para avanzar"+"\n"+"6. Si cae en una casilla con escalera deberï¿½ responder correctamente una pregunta para poder subir"+"\n"+"7. Por el contrario, si cae en una serpiente deberï¿½ responder correctamente una pregunta para evitar descender"+"\n"+"8. Ganarï¿½ el primero en llegar al otro extremo del tablero"+"\n"+"ï¿½BUENA SUERTE!");
 
 		}
 		if(Comando.equals("pc")){

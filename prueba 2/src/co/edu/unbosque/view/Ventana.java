@@ -33,10 +33,10 @@ public class Ventana extends JFrame{
 		
 		
 		
-		//getContentPane().add(start, BorderLayout.CENTER);
+		
 		getContentPane().add(avatar, BorderLayout.CENTER);
 		//getContentPane().add(escoger, BorderLayout.CENTER); 
-		
+		//getContentPane().add(start, BorderLayout.CENTER);
 	}
 	
 	

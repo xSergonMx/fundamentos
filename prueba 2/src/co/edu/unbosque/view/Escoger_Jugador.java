@@ -20,6 +20,7 @@ public class Escoger_Jugador extends JPanel{
 	private JButton race;	
 	private JButton chaos;
 	private Image imagen;
+	//private Icon icono;
 
 	public Escoger_Jugador() {
 		setLayout(null);
@@ -36,13 +37,19 @@ public class Escoger_Jugador extends JPanel{
 		titulo.setBounds(350, 50, 500, 100);
 		
 		pc = new JButton();
-		pc.setText("pc");
+		//pc.setText("pc");
 		pc.setBounds(100, 200, 220, 180);
 		pc.setActionCommand("pc");
+//		pc.setIcon(getClass().getResource("/Imagenes/FondoEscoger.jpg"));
+//		icono = new Icon(getClass().getResource("/Imagenes/FondoEscoger.jpg")).getIcon();
 		//ImageIcon imagen = new ImageIcon("Imagenes/sepientes.png");
-		//Icon icono = new ImageIcon(imagen.getImage().getScaledInstance(pc.getWidth(), pc.getHeight(), Image.SCALE_DEFAULT));
+		
+		
+		ImageIcon icono = new ImageIcon("serpientes.png");
+		//Image scaleImage = icon.getImage().getScaledInstance(28, 28, Image.SCALE_DEFAULT);
 		//pc.setIcon(icono);
 		
+		setSize(50,50);
 		
 		
 		duel = new JButton();
@@ -63,6 +70,7 @@ public class Escoger_Jugador extends JPanel{
 		add(duel);
 		add(race);
 		add(chaos);
+		
 		
 	}
 	@Override

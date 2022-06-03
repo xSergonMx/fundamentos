@@ -13,10 +13,12 @@ public class Controlador implements ActionListener{
 	
 	private Ventana ventana;
 	private Jugadores j;
+	private Escoger_Jugador escoger;
 	
 
 	public Controlador() {
 		ventana = new Ventana();
+		escoger = new Escoger_Jugador();
 		asignarOyentes();
 	}
 	
@@ -48,7 +50,8 @@ public class Controlador implements ActionListener{
 		if(Comando.equals("jugar")) {
 			
 			ventana.getStart().setVisible(false); 
-			ventana.getEscoger().setVisible(true);
+			ventana.getContentPane().add(escoger);
+			
 			
 		}
 		
@@ -57,8 +60,9 @@ public class Controlador implements ActionListener{
 
 		}
 		if(Comando.equals("pc")){
+
+			ventana.getStart().setVisible(true); 
 			ventana.getEscoger().setVisible(false);
-			ventana.getAvatar().setVisible(true);
 		}
 		
 		if(Comando.equals("dado")) {

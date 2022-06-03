@@ -22,6 +22,7 @@ public class Inicio extends JPanel {
 		setLayout(new GridLayout(4,1));
 		inicializarComponentes();
 		setVisible(true);
+		setSize(200,200);
 	}
 	
 	public void inicializarComponentes(){
